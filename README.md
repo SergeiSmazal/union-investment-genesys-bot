@@ -1,6 +1,3 @@
-# union-investment-genesys-bot
-Вот подробный и структурированный файл **README.md**, описывающий весь проект целиком, включая архитектуру, логику распределения по кейсам, реализацию первого сценария (`Leben_Angebot`) и план для последующих модулей.
-
 ```markdown
 # Projekt-Dokumentation: Union Investment & HDI — Self-Service & Mission Bot Flow (Genesys Cloud Architect)
 
