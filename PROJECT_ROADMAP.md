@@ -45,18 +45,19 @@ Diese Roadmap dokumentiert den aktuellen Entwicklungsstand des Genesys Cloud Arc
 
 ---
 
-## 🟡 Phase 3: Implementierung Case 2 — Stammdaten Änderung
+## 🟢 Phase 3: Implementierung Case 2 — Stammdaten Änderung
 
 **Flow-Name:** `DIY:Stammdaten_Aenderung`  
 **Status:** 🔄 In Planung
 
 ### Geplante Arbeitsschritte
 
-- [ ] **Bot Flow Design**
+- [x] **Bot Flow Design**
+- [x] **Bot Flow Design**
   - Erstellung des zweiten autonomen Bots für Kundenadreß- und Datenupdates
   - Definition der benötigten Slots (z. B. Kundennummer, neue Adresse, PLZ)
 
-- [ ] **Datenübergabe-Vorbereitung**  
+- [x] **Datenübergabe-Vorbereitung**  
   Konfiguration der globalen `Flow.`-Ausgabevariablen für den Parent-Flow.
 
 ---
