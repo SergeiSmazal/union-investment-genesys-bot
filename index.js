@@ -49,6 +49,9 @@ exports.handler = async (event) => {
 
             return {
                 statusCode: 200,
+                headers: {
+                    "Content-Type": "application/json"
+                },
                 body: JSON.stringify({
                     status: "success",
                     mission: "leben_angebot",
@@ -67,6 +70,9 @@ exports.handler = async (event) => {
             if (!customerId || !changeType) {
                 return {
                     statusCode: 400,
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
                     body: JSON.stringify({ error: "customerId and changeType are required" })
                 };
             }
@@ -82,6 +88,9 @@ exports.handler = async (event) => {
 
             return {
                 statusCode: 200,
+                headers: {
+                    "Content-Type": "application/json"
+                },
                 body: JSON.stringify({
                     status: "success",
                     mission: "stammdaten_aenderung",
@@ -96,6 +105,9 @@ exports.handler = async (event) => {
         default:
             return {
                 statusCode: 400,
+                headers: {
+                    "Content-Type": "application/json"
+                },
                 body: JSON.stringify({ error: `Unknown mission: '${mission}'` })
             };
     }
