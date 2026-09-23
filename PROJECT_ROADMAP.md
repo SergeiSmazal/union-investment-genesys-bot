@@ -81,7 +81,7 @@ Diese Roadmap dokumentiert den aktuellen Entwicklungsstand des Genesys Cloud Arc
 
 **Status:** 🔄 In Planung
 
-- [ ] **Genesys Data Actions Einrichtung**
+- [x] **Genesys Data Actions Einrichtung**
   - Erstellung der Custom Data Actions (oder einer unifizierten Action)
   - Kommunikation mit dem AWS API Gateway
   - Definition der Input- und Output-Schemas für beide Geschäftsvorgänge
