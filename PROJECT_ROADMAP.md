@@ -62,17 +62,17 @@ Diese Roadmap dokumentiert den aktuellen Entwicklungsstand des Genesys Cloud Arc
 
 ---
 
-## 🟡 Phase 4: Zentraler Backend-Service
+## 🟢 Phase 4: Zentraler Backend-Service
 
 **Technologie:** AWS Lambda & API Gateway  
 **Status:** 🔄 In Planung
 
-- [ ] **Unifizierte AWS Lambda Entwicklung**
+- [x] **Unifizierte AWS Lambda Entwicklung**
   - Erstellung einer zentralen Node.js Lambda-Funktion
   - Entgegennahme von Anfragen für beide Cases (Berechnung vs. Stammdatenänderung)
   - Routing-Typ-basierte Verarbeitung
 
-- [ ] **API Gateway Deployment**
+- [x] **API Gateway Deployment**
   - Bereitstellung des gemeinsamen HTTP-Endpoints für den Zugriff aus Genesys Cloud
 
 ---
