@@ -77,21 +77,21 @@ Diese Roadmap dokumentiert den aktuellen Entwicklungsstand des Genesys Cloud Arc
 
 ---
 
-## 🟡 Phase 5: Genesys Data Actions & Parent-Flow Routing
+## 🟢 Phase 5: Genesys Data Actions & Parent-Flow Routing
 
 **Status:** 🔄 In Planung
 
-- [ ] **Genesys Data Actions Einrichtung**
+- [x] **Genesys Data Actions Einrichtung**
   - Erstellung der Custom Data Actions (oder einer unifizierten Action)
   - Kommunikation mit dem AWS API Gateway
   - Definition der Input- und Output-Schemas für beide Geschäftsvorgänge
 
-- [ ] **Parent Flow Routing anbinden**
+- [x] **Parent Flow Routing anbinden**
   - Vollständige Konfiguration des `Switch`-Blocks im Haupt-Runtime-Flow (`unioninvestment_ora_call_runtime`)
   - Routing für `leben_angebot` und `stammdaten_aenderung`
   - Verknüpfung mit den jeweiligen `Call Bot Flow`-Blöcken
 
-- [ ] **End-to-End Test (Architect Test-Tool)**
+- [x] **End-to-End Test (Architect Test-Tool)**
   - Simulation von Interaktionen für beide Cases
   - Prüfung der NLU-Erkennung
   - Validierung der API-Antworten
