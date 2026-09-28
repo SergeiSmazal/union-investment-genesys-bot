@@ -189,6 +189,6 @@ Der zweite Bot-Flow `DIY:Stammdaten_Aenderung` wird für folgende Szenarien eing
 
 ---
 
-**Status:** 🔄 In aktiver Entwicklung  
+**Status:** ✅ Finished 
 **Letzte Aktualisierung:** 2024  
 **Projekt:** Union Investment & HDI Self-Service Bot
