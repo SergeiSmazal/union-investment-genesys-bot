@@ -78,17 +78,27 @@ exports.handler = async (event) => {
             }
 
             let enrichedData = { newValue };
+            let successMessage = `Die Daten für Kunde ${customerId} wurden aktualisiert.`;
 
-            if (changeType.toLowerCase() === "adresse" && body.plz && plzMap) {
-                const entry = plzMap[body.plz];
-                if (entry) {
-                    enrichedData.locationDetails = entry;
+            // Динамическое формирование текста в зависимости от changeType
+            const typeLower = changeType.toLowerCase();
+            if (typeLower === "adresse") {
+                successMessage = `Ihre Adresse für Kunde ${customerId} wurde erfolgreich aktualisiert.`;
+                if (body.plz && plzMap) {
+                    const entry = plzMap[body.plz];
+                    if (entry) {
+                        enrichedData.locationDetails = entry;
+                    }
                 }
+            } else if (typeLower === "phone") {
+                successMessage = `Ihre Telefonnummer für Kunde ${customerId} wurde erfolgreich aktualisiert.`;
+            } else if (typeLower === "email") {
+                successMessage = `Ihre E-Mail-Adresse für Kunde ${customerId} wurde erfolgreich aktualisiert.`;
             }
 
             return {
                 statusCode: 200,
-                headers: {
+                    headers: {
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
@@ -96,7 +106,7 @@ exports.handler = async (event) => {
                     mission: "stammdaten_aenderung",
                     customerId,
                     changeType,
-                    message: `Die Daten für Kunde ${customerId} wurden aktualisiert.`,
+                    message: successMessage,
                     details: enrichedData
                 })
             };
