@@ -102,15 +102,15 @@ Diese Roadmap dokumentiert den aktuellen Entwicklungsstand des Genesys Cloud Arc
 
 **Status:** 📋 Ausblick
 
-- [ ] **Error Handling & Fallbacks**
+- [x] **Error Handling & Fallbacks**
   - Implementierung von Wiederholungsversuchen bei ungültigen Eingaben
   - Fallback-Routen (Transfer zu Agenten)
 
-- [ ] **Publishing**
+- [x] **Publishing**
   - Finale Validierung aller Flows in Genesys Cloud
   - Veröffentlichung (Publish) der Produktionsversion
 
-- [ ] **Produktiv-Abnahme**
+- [x] **Produktiv-Abnahme**
   - Abschließender Test unter Realbedingungen
   - Go-Live und Monitoring
 
@@ -122,10 +122,10 @@ Diese Roadmap dokumentiert den aktuellen Entwicklungsstand des Genesys Cloud Arc
 |-------|-------------|--------|
 | 1 | Konzeption & Architektur | ✅ Abgeschlossen |
 | 2 | Case 1: Leben Angebot | ✅ Abgeschlossen |
-| 3 | Case 2: Stammdaten Änderung | 🔄 In Planung |
-| 4 | Backend-Service (AWS Lambda) | 🔄 In Planung |
-| 5 | Genesys Integration & Routing | 🔄 In Planung |
-| 6 | Finalisierung & Go-Live | ⏳ Ausblick |
+| 3 | Case 2: Stammdaten Änderung | ✅ Abgeschlossen |
+| 4 | Backend-Service (AWS Lambda) | ✅ Abgeschlossen  |
+| 5 | Genesys Integration & Routing | ✅ Abgeschlossen  |
+| 6 | Finalisierung & Go-Live | ✅ Abgeschlossen  |
 
 ---
 
