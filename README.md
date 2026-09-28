@@ -48,8 +48,8 @@ Eingehende Anfrage
 | Case | Flow-Name | Beschreibung | Status |
 |------|-----------|-------------|--------|
 | **Case 1** | `leben_angebot` | Beitragsangebot der Lebensversicherung (HDI) | ✅ Aktiv |
-| **Case 2** | `stammdaten_aenderung` | Änderung von Kundendatensätzen und Adressen | 🔄 In Arbeit |
-| **Default** | `fallback` | Weiterleitung an menschlichen Agenten | 📋 Geplant |
+| **Case 2** | `stammdaten_aenderung` | Änderung von Kundendatensätzen und Adressen | ✅ Aktiv |
+| **Default** | `fallback` | Weiterleitung an menschlichen Agenten | ✅ Aktiv |
 
 ---
 
@@ -189,6 +189,6 @@ Der zweite Bot-Flow `DIY:Stammdaten_Aenderung` wird für folgende Szenarien eing
 
 ---
 
-**Status:** 🔄 In aktiver Entwicklung  
+**Status:** ✅ Finished 
 **Letzte Aktualisierung:** 2024  
 **Projekt:** Union Investment & HDI Self-Service Bot
